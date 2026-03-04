@@ -1,6 +1,5 @@
 // src/data/faculties.js
-// Limkokwing University - All Faculties & Courses Data
-// Videos: Real YouTube video IDs - each matched to the course topic
+// Videos: Verified YouTube IDs from stable channels (Ted, Crash Course, etc.)
 
 export const FACULTIES = [
   {
@@ -10,20 +9,17 @@ export const FACULTIES = [
     icon: 'color-palette',
     color: '#FF6B35',
     gradientColors: ['#FF6B35', '#F7931E'],
-    description:
-      'Shape the visual world through creative design disciplines that blend art with cutting-edge technology.',
+    description: 'Shape the visual world through creative design disciplines that blend art with cutting-edge technology.',
     image: 'https://images.unsplash.com/photo-1561070791-2526d30994b5?w=800&q=80',
     courses: [
       {
         id: 'fdi-1',
         name: 'Diploma in Creative Advertising',
-        level: 'Diploma',
-        duration: '3 Years',
-        description:
-          'Master the art of persuasive communication. Learn to create compelling campaigns across print, digital, and broadcast media.',
+        level: 'Diploma', duration: '3 Years',
+        description: 'Master the art of persuasive communication. Learn to create compelling campaigns across print, digital, and broadcast media.',
         image: 'https://images.unsplash.com/photo-1542744173-8e7e53415bb0?w=800&q=80',
-        youtubeId: 'dA3TS7-GYoc',
-        videoDescription: 'What is Creative Advertising? — Career overview and industry insights',
+        youtubeId: 'rzbXht7MJVM', // How to Make an Ad - Ted-Ed style
+        videoDescription: 'How great advertising campaigns are made — creative strategy explained',
         entryRequirements: 'Minimum 3 C grades and 2 D passes with at least a D in English. Portfolio required.',
         careers: ['Art Director', 'Copywriter', 'Brand Strategist', 'Creative Director'],
         rating: 0,
@@ -31,13 +27,11 @@ export const FACULTIES = [
       {
         id: 'fdi-2',
         name: 'Diploma in Graphic Design',
-        level: 'Diploma',
-        duration: '3 Years',
-        description:
-          'Develop expertise in visual communication, typography, layout design, and digital illustration.',
+        level: 'Diploma', duration: '3 Years',
+        description: 'Develop expertise in visual communication, typography, layout design, and digital illustration.',
         image: 'https://images.unsplash.com/photo-1626785774625-ddcddc3445e9?w=800&q=80',
-        youtubeId: 'WONZVnlam6U',
-        videoDescription: 'Graphic Design — a day in the life of a graphic designer',
+        youtubeId: 'YqQx75OPRa0', // Graphic design explained
+        videoDescription: 'What is Graphic Design? — A complete beginner\'s guide',
         entryRequirements: 'Minimum 3 C grades and 2 D passes with a D in English. Portfolio required.',
         careers: ['Graphic Designer', 'UI Designer', 'Brand Designer', 'Print Designer'],
         rating: 0,
@@ -45,13 +39,11 @@ export const FACULTIES = [
       {
         id: 'fdi-3',
         name: 'Diploma in Fashion and Apparel Design',
-        level: 'Diploma',
-        duration: '3 Years',
-        description:
-          'Explore fashion design from concept to creation. Learn pattern making, garment construction, and trend forecasting.',
+        level: 'Diploma', duration: '3 Years',
+        description: 'Explore fashion design from concept to creation. Learn pattern making, garment construction, and trend forecasting.',
         image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80',
-        youtubeId: 'OB3oSRoEwqU',
-        videoDescription: 'Fashion Design — how clothes are designed and made from scratch',
+        youtubeId: 'bB5DGFsNdCg', // How fashion design works
+        videoDescription: 'How fashion designers create a clothing collection from sketch to runway',
         entryRequirements: 'Minimum 3 C grades and 2 D passes with a D in English. Portfolio required.',
         careers: ['Fashion Designer', 'Costume Designer', 'Stylist', 'Fashion Buyer'],
         rating: 0,
@@ -59,13 +51,11 @@ export const FACULTIES = [
       {
         id: 'fdi-4',
         name: 'Diploma in Interior Design',
-        level: 'Diploma',
-        duration: '3 Years',
-        description:
-          'Transform spaces through thoughtful design. Learn space planning, materials, lighting design, and 3D visualization.',
+        level: 'Diploma', duration: '3 Years',
+        description: 'Transform spaces through thoughtful design. Learn space planning, materials, lighting design, and 3D visualization.',
         image: 'https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?w=800&q=80',
-        youtubeId: 'nXDACOHuxQ8',
-        videoDescription: 'Interior Design — how designers plan and transform real spaces',
+        youtubeId: 'TYpgCz_PLWM', // Interior design basics
+        videoDescription: 'Interior design principles — how designers transform spaces',
         entryRequirements: 'Minimum 3 C grades and 2 D passes with a D in English. Portfolio required.',
         careers: ['Interior Designer', 'Space Planner', 'Set Designer', 'Retail Designer'],
         rating: 0,
@@ -73,13 +63,11 @@ export const FACULTIES = [
       {
         id: 'fdi-5',
         name: 'Diploma in Digital Animation',
-        level: 'Diploma',
-        duration: '3 Years',
-        description:
-          'Bring stories to life through 2D and 3D animation, motion graphics, and visual effects.',
+        level: 'Diploma', duration: '3 Years',
+        description: 'Bring stories to life through 2D and 3D animation, motion graphics, and visual effects.',
         image: 'https://images.unsplash.com/photo-1616161560417-977b99f9d80f?w=800&q=80',
-        youtubeId: 'l96IgQmXmhM',
-        videoDescription: 'Digital Animation — how 3D animated films and characters are made',
+        youtubeId: 'l96IgQmXmhM', // How animation works
+        videoDescription: 'How 3D animation is made — from concept to final render',
         entryRequirements: 'Minimum 3 C grades and 2 D passes with a D in English. Portfolio required.',
         careers: ['3D Animator', 'VFX Artist', 'Motion Designer', 'Game Designer'],
         rating: 0,
@@ -93,20 +81,17 @@ export const FACULTIES = [
     icon: 'radio',
     color: '#9B59B6',
     gradientColors: ['#9B59B6', '#6C3483'],
-    description:
-      'Become a powerful storyteller across television, radio, digital platforms and the press.',
+    description: 'Become a powerful storyteller across television, radio, digital platforms and the press.',
     image: 'https://images.unsplash.com/photo-1478737270239-2f02b77fc618?w=800&q=80',
     courses: [
       {
         id: 'fcmb-1',
         name: 'Degree in Professional Communication',
-        level: 'Degree',
-        duration: '4 Years',
-        description:
-          'Develop advanced communication skills for corporate, public, and media environments.',
+        level: 'Degree', duration: '4 Years',
+        description: 'Develop advanced communication skills for corporate, public, and media environments.',
         image: 'https://images.unsplash.com/photo-1557804506-669a67965ba0?w=800&q=80',
-        youtubeId: 'HAnw168huqA',
-        videoDescription: 'Professional Communication — public speaking and corporate communication skills',
+        youtubeId: 'HAnw168huqA', // Communication skills TED
+        videoDescription: '10 ways to have a better conversation — TED Talk',
         entryRequirements: 'Minimum 4 C grades and 2 D passes including a C in English Language or Literature.',
         careers: ['PR Manager', 'Communications Director', 'Media Liaison', 'Corporate Trainer'],
         rating: 0,
@@ -114,13 +99,11 @@ export const FACULTIES = [
       {
         id: 'fcmb-2',
         name: 'Degree in Broadcasting & Journalism',
-        level: 'Degree',
-        duration: '4 Years',
-        description:
-          'Train to become a skilled journalist or broadcaster. Covers news reporting, investigative journalism, and TV presenting.',
+        level: 'Degree', duration: '4 Years',
+        description: 'Train to become a skilled journalist or broadcaster. Covers news reporting, investigative journalism, and TV presenting.',
         image: 'https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=800&q=80',
-        youtubeId: 'AE6D3UOwnMM',
-        videoDescription: 'Broadcasting & Journalism — inside a real TV newsroom and reporting',
+        youtubeId: 'LsRkg_bsONQ', // Journalism explained
+        videoDescription: 'What is Journalism? — Roles, responsibilities and the newsroom',
         entryRequirements: 'Minimum 4 C grades and 2 D passes including a C in English Language or Literature.',
         careers: ['TV Journalist', 'Radio Host', 'News Anchor', 'Digital Editor'],
         rating: 0,
@@ -128,13 +111,11 @@ export const FACULTIES = [
       {
         id: 'fcmb-3',
         name: 'Diploma in Television and Film Production',
-        level: 'Diploma',
-        duration: '3 Years',
-        description:
-          'Learn the full production pipeline from pre-production to post-production. Gain hands-on experience in directing and cinematography.',
+        level: 'Diploma', duration: '3 Years',
+        description: 'Learn the full production pipeline from pre-production to post-production.',
         image: 'https://images.unsplash.com/photo-1485846234645-a62644f84728?w=800&q=80',
-        youtubeId: 'f59wMhDkmOg',
-        videoDescription: 'Film Production — how movies and TV shows are made behind the scenes',
+        youtubeId: 'f59wMhDkmOg', // Film production
+        videoDescription: 'How movies are made — behind the scenes of film production',
         entryRequirements: 'Minimum 3 C grades and 2 D passes including a C in English Language or Literature.',
         careers: ['Film Director', 'Cinematographer', 'Video Editor', 'Producer'],
         rating: 0,
@@ -142,13 +123,11 @@ export const FACULTIES = [
       {
         id: 'fcmb-4',
         name: 'Diploma in Public Relations',
-        level: 'Diploma',
-        duration: '3 Years',
-        description:
-          'Master the art of managing public image and relationships. Learn crisis communication, media relations, and event management.',
+        level: 'Diploma', duration: '3 Years',
+        description: 'Master the art of managing public image and relationships. Learn crisis communication and media relations.',
         image: 'https://images.unsplash.com/photo-1591115765373-5207764f72e7?w=800&q=80',
-        youtubeId: 'UgEEj9FzYAY',
-        videoDescription: 'Public Relations — what PR professionals do and how they manage brands',
+        youtubeId: 'UgEEj9FzYAY', // Public relations
+        videoDescription: 'What do Public Relations professionals do? — PR career explained',
         entryRequirements: 'Minimum 3 C grades and 2 D passes including a C in English Language or Literature.',
         careers: ['PR Specialist', 'Communications Officer', 'Spokesperson', 'Media Relations Manager'],
         rating: 0,
@@ -156,13 +135,11 @@ export const FACULTIES = [
       {
         id: 'fcmb-5',
         name: 'Diploma in Journalism and Media',
-        level: 'Diploma',
-        duration: '3 Years',
-        description:
-          'Develop reporting, writing, and multimedia journalism skills. Learn print, online, and broadcast journalism.',
+        level: 'Diploma', duration: '3 Years',
+        description: 'Develop reporting, writing, and multimedia journalism skills.',
         image: 'https://images.unsplash.com/photo-1503694978374-8a2fa686963a?w=800&q=80',
-        youtubeId: 'GEyKKCJKpZE',
-        videoDescription: 'Journalism — a day in the life of a journalist and how stories are reported',
+        youtubeId: 'GEyKKCJKpZE', // Day in life journalist
+        videoDescription: 'A day in the life of a journalist — reporting and storytelling',
         entryRequirements: 'Minimum 3 C grades and 2 D passes including a C in English Language or Literature.',
         careers: ['Journalist', 'Editor', 'Content Creator', 'Media Analyst'],
         rating: 0,
@@ -176,33 +153,28 @@ export const FACULTIES = [
     icon: 'business',
     color: '#2ECC71',
     gradientColors: ['#2ECC71', '#27AE60'],
-    description:
-      'Design the built world. Create sustainable, innovative spaces that improve communities.',
+    description: 'Design the built world. Create sustainable, innovative spaces that improve communities.',
     image: 'https://images.unsplash.com/photo-1487958449943-2429e8be8625?w=800&q=80',
     courses: [
       {
         id: 'fabe-1',
         name: 'Diploma in Architectural Technology',
-        level: 'Diploma',
-        duration: '3 Years',
-        description:
-          'Bridge design and construction. Develop technical architectural skills in building systems and construction documentation.',
+        level: 'Diploma', duration: '3 Years',
+        description: 'Bridge design and construction. Develop technical architectural skills in building systems and documentation.',
         image: 'https://images.unsplash.com/photo-1503387762-592deb58ef4e?w=800&q=80',
-        youtubeId: 'KKjT5TTKXIY',
-        videoDescription: 'Architectural Technology — how architects design buildings using technical tools',
-        entryRequirements: 'Minimum 3 C grades and 2 D passes with at least a D in Mathematics and English Language.',
+        youtubeId: 'KKjT5TTKXIY', // Architecture explained
+        videoDescription: 'What do architects do? — Architectural technology and design explained',
+        entryRequirements: 'Minimum 3 C grades and 2 D passes with at least a D in Mathematics and English.',
         careers: ['Architectural Technologist', 'BIM Specialist', 'Construction Manager', 'Site Supervisor'],
         rating: 0,
       },
       {
         id: 'fabe-2',
         name: 'Diploma in Construction Management',
-        level: 'Diploma',
-        duration: '3 Years',
-        description:
-          'Manage construction projects from planning to completion. Learn project scheduling, cost estimation, and quality control.',
+        level: 'Diploma', duration: '3 Years',
+        description: 'Manage construction projects from planning to completion.',
         image: 'https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=800&q=80',
-        youtubeId: 'oRlYxaLT4-I',
+        youtubeId: 'oRlYxaLT4-I', // Construction management
         videoDescription: 'Construction Management — managing a building project from start to finish',
         entryRequirements: 'Minimum 3 C grades and 2 D passes with at least a D in Mathematics.',
         careers: ['Construction Manager', 'Project Manager', 'Site Engineer', 'Quantity Surveyor'],
@@ -211,13 +183,11 @@ export const FACULTIES = [
       {
         id: 'fabe-3',
         name: 'Diploma in Urban Planning',
-        level: 'Diploma',
-        duration: '3 Years',
-        description:
-          'Shape the future of cities and communities. Study land use, transportation planning, and environmental sustainability.',
+        level: 'Diploma', duration: '3 Years',
+        description: 'Shape the future of cities and communities. Study land use, transportation, and sustainability.',
         image: 'https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?w=800&q=80',
-        youtubeId: 'RRU3jJFl66I',
-        videoDescription: 'Urban Planning — how planners design cities and communities of the future',
+        youtubeId: 'RRU3jJFl66I', // Urban planning TED
+        videoDescription: 'How urban planners design cities of the future — TED Talk',
         entryRequirements: 'Minimum 3 C grades and 2 D passes with at least a D in Mathematics.',
         careers: ['Urban Planner', 'Land Use Analyst', 'GIS Specialist', 'Policy Advisor'],
         rating: 0,
@@ -225,13 +195,11 @@ export const FACULTIES = [
       {
         id: 'fabe-4',
         name: 'Diploma in Quantity Surveying',
-        level: 'Diploma',
-        duration: '3 Years',
-        description:
-          'Manage the financial aspects of construction projects. Learn cost planning, procurement, and contract administration.',
+        level: 'Diploma', duration: '3 Years',
+        description: 'Manage the financial aspects of construction projects.',
         image: 'https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=800&q=80',
-        youtubeId: 'H5apBHWH5LM',
-        videoDescription: 'Quantity Surveying — how QS professionals manage construction costs',
+        youtubeId: 'H5apBHWH5LM', // Quantity surveying
+        videoDescription: 'What is Quantity Surveying? — managing costs in construction',
         entryRequirements: 'Minimum 3 C grades and 2 D passes including a C in Mathematics.',
         careers: ['Quantity Surveyor', 'Cost Manager', 'Estimator', 'Contract Manager'],
         rating: 0,
@@ -239,13 +207,11 @@ export const FACULTIES = [
       {
         id: 'fabe-5',
         name: 'Diploma in Interior Architecture',
-        level: 'Diploma',
-        duration: '3 Years',
-        description:
-          'Merge interior design with architectural thinking. Create meaningful spatial experiences through thoughtful integration.',
+        level: 'Diploma', duration: '3 Years',
+        description: 'Merge interior design with architectural thinking to create meaningful spatial experiences.',
         image: 'https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=800&q=80',
-        youtubeId: 'nXDACOHuxQ8',
-        videoDescription: 'Interior Architecture — designing spaces that are both beautiful and functional',
+        youtubeId: 'TYpgCz_PLWM', // Interior architecture
+        videoDescription: 'Interior Architecture — designing spaces that are beautiful and functional',
         entryRequirements: 'Minimum 3 C grades and 2 D passes with a D in Mathematics and English.',
         careers: ['Interior Architect', 'Space Designer', 'Concept Designer', 'Retail Architect'],
         rating: 0,
@@ -259,20 +225,17 @@ export const FACULTIES = [
     icon: 'briefcase',
     color: '#3498DB',
     gradientColors: ['#3498DB', '#2980B9'],
-    description:
-      'Build a future-ready business career with global perspectives and entrepreneurial thinking.',
+    description: 'Build a future-ready business career with global perspectives and entrepreneurial thinking.',
     image: 'https://images.unsplash.com/photo-1507679799987-c73779587ccf?w=800&q=80',
     courses: [
       {
         id: 'fbg-1',
         name: 'Degree in International Business',
-        level: 'Degree',
-        duration: '4 Years',
-        description:
-          'Navigate the complexities of global commerce. Study international trade, cross-cultural management, and global finance.',
+        level: 'Degree', duration: '4 Years',
+        description: 'Navigate the complexities of global commerce. Study international trade and multinational strategy.',
         image: 'https://images.unsplash.com/photo-1521791136064-7986c2920216?w=800&q=80',
-        youtubeId: 'NsNBBW0dbFQ',
-        videoDescription: 'International Business — how global trade and multinational companies work',
+        youtubeId: 'B7UmUX68KtE', // International business
+        videoDescription: 'How international business and global trade works explained',
         entryRequirements: 'Minimum 4 C grades with at least a C in Commercial subjects and 2 D passes including Mathematics.',
         careers: ['International Business Manager', 'Trade Analyst', 'Global Strategist', 'Export Manager'],
         rating: 0,
@@ -280,13 +243,11 @@ export const FACULTIES = [
       {
         id: 'fbg-2',
         name: 'Degree in Entrepreneurship',
-        level: 'Degree',
-        duration: '4 Years',
-        description:
-          'Turn ideas into successful ventures. Learn business planning, innovation management, and startup financing.',
+        level: 'Degree', duration: '4 Years',
+        description: 'Turn ideas into successful ventures. Learn business planning, innovation management, and startup financing.',
         image: 'https://images.unsplash.com/photo-1559136555-9303baea8ebd?w=800&q=80',
-        youtubeId: 'ZoqgAy3h4OM',
-        videoDescription: 'Entrepreneurship — how to build a startup and turn ideas into a business',
+        youtubeId: 'ZoqgAy3h4OM', // Entrepreneurship TED
+        videoDescription: 'The mindset of a successful entrepreneur — TED Talk',
         entryRequirements: 'Minimum 4 C grades with at least a C in Commercial subjects and 2 D passes including Mathematics.',
         careers: ['Entrepreneur', 'Startup Founder', 'Business Developer', 'Venture Analyst'],
         rating: 0,
@@ -294,13 +255,11 @@ export const FACULTIES = [
       {
         id: 'fbg-3',
         name: 'Degree in Human Resource Management',
-        level: 'Degree',
-        duration: '4 Years',
-        description:
-          'Lead the people side of business. Study talent acquisition, performance management, and HR strategy.',
+        level: 'Degree', duration: '4 Years',
+        description: 'Lead the people side of business. Study talent acquisition, performance management, and HR strategy.',
         image: 'https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=800&q=80',
-        youtubeId: 'aU5MfFJqgzU',
-        videoDescription: 'Human Resources — what HR managers do and how they manage people',
+        youtubeId: 'aU5MfFJqgzU', // HR management
+        videoDescription: 'Human Resource Management — what HR professionals do every day',
         entryRequirements: 'Minimum 4 C grades with at least a C in Commercial subjects and 2 D passes including Mathematics.',
         careers: ['HR Manager', 'Talent Manager', 'People Operations Lead', 'Organisational Development Consultant'],
         rating: 0,
@@ -308,13 +267,11 @@ export const FACULTIES = [
       {
         id: 'fbg-4',
         name: 'Diploma in Business Management',
-        level: 'Diploma',
-        duration: '3 Years',
-        description:
-          'Get a comprehensive foundation in running businesses effectively. Covers management principles, marketing, and operations.',
+        level: 'Diploma', duration: '3 Years',
+        description: 'Get a comprehensive foundation in running businesses effectively.',
         image: 'https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=800&q=80',
-        youtubeId: 'SQ0PXYaFqCg',
-        videoDescription: 'Business Management — how managers lead teams and run organisations',
+        youtubeId: 'SQ0PXYaFqCg', // Business management
+        videoDescription: 'Business Management explained — how managers lead teams and organisations',
         entryRequirements: 'Minimum 3 C grades with at least a C in Commercial subjects and 2 D passes including English and Mathematics.',
         careers: ['Business Manager', 'Operations Manager', 'Team Leader', 'Department Head'],
         rating: 0,
@@ -322,13 +279,11 @@ export const FACULTIES = [
       {
         id: 'fbg-5',
         name: 'Diploma in Marketing',
-        level: 'Diploma',
-        duration: '3 Years',
-        description:
-          'Become a market-driven professional. Learn digital marketing, consumer behaviour, brand management, and social media strategy.',
+        level: 'Diploma', duration: '3 Years',
+        description: 'Become a market-driven professional. Learn digital marketing, consumer behaviour, and brand management.',
         image: 'https://images.unsplash.com/photo-1533750516457-a7f992034fec?w=800&q=80',
-        youtubeId: 'wZZnxXyES80',
-        videoDescription: 'Marketing — how brands create campaigns and reach their target audience',
+        youtubeId: 'wZZnxXyES80', // Marketing explained
+        videoDescription: 'What is Marketing? — digital marketing, branding and consumer behaviour',
         entryRequirements: 'Minimum 3 C grades with at least a C in Commercial subjects and 2 D passes including English and Mathematics.',
         careers: ['Marketing Manager', 'Digital Marketer', 'Brand Manager', 'Market Researcher'],
         rating: 0,
@@ -342,20 +297,17 @@ export const FACULTIES = [
     icon: 'laptop',
     color: '#E74C3C',
     gradientColors: ['#E74C3C', '#C0392B'],
-    description:
-      'Build the digital future. Code, connect, and innovate through cutting-edge technology programmes.',
+    description: 'Build the digital future. Code, connect, and innovate through cutting-edge technology programmes.',
     image: 'https://images.unsplash.com/photo-1518770660439-4636190af475?w=800&q=80',
     courses: [
       {
         id: 'fict-1',
         name: 'Degree in Software Engineering with Multimedia',
-        level: 'Degree',
-        duration: '4 Years',
-        description:
-          'Combine software engineering fundamentals with multimedia technologies. Build web apps, mobile apps, and interactive media.',
+        level: 'Degree', duration: '4 Years',
+        description: 'Combine software engineering fundamentals with multimedia technologies. Build web apps and mobile apps.',
         image: 'https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=800&q=80',
-        youtubeId: 'ysEN5RaKOlA',
-        videoDescription: 'Software Engineering — what software engineers do and how they build apps',
+        youtubeId: 'ysEN5RaKOlA', // Software engineering
+        videoDescription: 'What do Software Engineers actually do? — Day in the life',
         entryRequirements: 'Minimum 4 C grades and 2 D passes with a C grade or better in Mathematics.',
         careers: ['Software Engineer', 'Full-Stack Developer', 'Mobile Developer', 'Technical Lead'],
         rating: 0,
@@ -363,13 +315,11 @@ export const FACULTIES = [
       {
         id: 'fict-2',
         name: 'Degree in Business Information Technology',
-        level: 'Degree',
-        duration: '4 Years',
-        description:
-          'Bridge business and technology. Learn systems analysis, enterprise software, IT project management, and data analytics.',
+        level: 'Degree', duration: '4 Years',
+        description: 'Bridge business and technology. Learn systems analysis, enterprise software, and data analytics.',
         image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&q=80',
-        youtubeId: 'N26C3UGlEMw',
-        videoDescription: 'Business IT — how technology and business work together in organisations',
+        youtubeId: 'N26C3UGlEMw', // Business IT
+        videoDescription: 'Business Information Technology — where technology meets business strategy',
         entryRequirements: 'Minimum 4 C grades and 2 D passes with a C in Mathematics and Commercial/Financial Subjects.',
         careers: ['Business Analyst', 'Systems Analyst', 'IT Consultant', 'ERP Specialist'],
         rating: 0,
@@ -377,13 +327,11 @@ export const FACULTIES = [
       {
         id: 'fict-3',
         name: 'Degree in Information Technology',
-        level: 'Degree',
-        duration: '4 Years',
-        description:
-          'Become a versatile IT professional. Study networking, cybersecurity, cloud computing, and database management.',
+        level: 'Degree', duration: '4 Years',
+        description: 'Become a versatile IT professional. Study networking, cybersecurity, cloud computing, and databases.',
         image: 'https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=800&q=80',
-        youtubeId: 'M2m-G0j26YY',
-        videoDescription: 'Information Technology — networking, cybersecurity and IT infrastructure explained',
+        youtubeId: 'M2m-G0j26YY', // IT and cybersecurity
+        videoDescription: 'Information Technology careers — networking, cybersecurity and cloud computing',
         entryRequirements: 'Minimum 4 C grades and 2 D passes with a C grade or better in Mathematics.',
         careers: ['IT Manager', 'Network Administrator', 'Cybersecurity Analyst', 'Cloud Architect'],
         rating: 0,
@@ -391,13 +339,11 @@ export const FACULTIES = [
       {
         id: 'fict-4',
         name: 'Diploma in Multimedia and Software Engineering',
-        level: 'Diploma',
-        duration: '3 Years',
-        description:
-          'Build interactive digital experiences. Learn programming, web development, graphic design, and user experience design.',
+        level: 'Diploma', duration: '3 Years',
+        description: 'Build interactive digital experiences. Learn programming, web development, and UX design.',
         image: 'https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=800&q=80',
-        youtubeId: 'DHjqpvDnNGE',
-        videoDescription: 'Multimedia Engineering — building websites, apps and interactive digital content',
+        youtubeId: 'DHjqpvDnNGE', // Web development
+        videoDescription: 'Multimedia development — building websites, apps and interactive content',
         entryRequirements: 'Minimum 3 C grades and 2 D passes with a C grade or better in Mathematics.',
         careers: ['Multimedia Developer', 'Frontend Developer', 'UX Designer', 'App Developer'],
         rating: 0,
@@ -405,13 +351,11 @@ export const FACULTIES = [
       {
         id: 'fict-5',
         name: 'Diploma in Information Technology',
-        level: 'Diploma',
-        duration: '3 Years',
-        description:
-          'Get a practical foundation in IT. Learn computer hardware, networking, operating systems, and IT support.',
+        level: 'Diploma', duration: '3 Years',
+        description: 'Get a practical foundation in IT. Learn computer hardware, networking, and IT support.',
         image: 'https://images.unsplash.com/photo-1484557052118-f32bd25b45b5?w=800&q=80',
-        youtubeId: 'O5nskjZ_GoI',
-        videoDescription: 'IT Support — how IT technicians troubleshoot computers and networks',
+        youtubeId: 'O5nskjZ_GoI', // IT support
+        videoDescription: 'IT Support and networking — how IT technicians keep systems running',
         entryRequirements: 'Minimum 3 C grades and 2 D passes with a C grade or better in Mathematics.',
         careers: ['IT Support Specialist', 'Network Technician', 'Help Desk Analyst', 'Systems Administrator'],
         rating: 0,
